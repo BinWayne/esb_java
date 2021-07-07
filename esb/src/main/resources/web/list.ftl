@@ -10,9 +10,12 @@
 
 </head>
 <body>
-<div class="container-fluid">
 
+<div class="container-fluid">
     <div class="row clearfix">
+		<div class="input-group">
+		<input type="text" class="form-control input-lg"><span class="input-group-addon btn btn-primary">搜索</span>
+		</div>
         <div class="col-md-16 column">
             <table class="table table-hover table-striped">
                 <thead>
@@ -26,7 +29,7 @@
 					<th >场景名称</th>
 					<th>交易码</th>
 					<th>交易名称</th>
-					<th>服务调用方</th>
+					<th class="col-md-1 column">服务调用方</th>
 					<th>服务提供方</th>
 					<th>服务状态</th>
                     <th>备注</th>
@@ -55,6 +58,9 @@
             </table>
         </div>
 
+<a href="#top">
+    <div id="one">点我回到顶部</div>
+</a>
         <#--分页-->
 
     </div>
